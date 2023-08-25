@@ -1,0 +1,21 @@
+app:
+  name: my-quarkus-app-4
+  namespace: my-quarkus-app-4-dev
+  cluster: .apps.cluster-jr597.sandbox426.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/slallemand/my-quarkus-app-4.git
+  org: slallemand
+  name: my-quarkus-app-4
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-4
+  tag: latest
